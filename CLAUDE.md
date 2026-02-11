@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**At the start of every session**: run `git pull` to sync with remote, then read `CHANGELOG.md`.
+
 ## Project Overview
 
 Configuration and maintenance of a CUPS print server running on a Raspberry Pi (Ubuntu 24.04 LTS, aarch64).
