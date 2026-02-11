@@ -127,8 +127,13 @@ ssh ubuntu@printserver.local 'sudo tdbdump /run/samba/printer_list.tdb'
 ssh ubuntu@printserver.local 'sudo systemctl restart cups smbd nmbd samba-bgqd wsdd avahi-daemon'
 ```
 
+## Changelog
+
+All changes are tracked in `CHANGELOG.md`. **Always read it at the start of a session and append new entries when making changes.**
+
 ## Project Files
 
 - `setup-printers.command` — macOS script to configure printers (double-click)
 - `setup-printers.ps1` — Windows PowerShell script to configure printers
+- `CHANGELOG.md` — changelog (always read and update)
 - `CLAUDE.md` — this file
