@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh:*)",
+      "Bash(lpstat:*)",
+      "Bash(lpoptions:*)",
+      "Bash(lpadmin:*)",
+      "Bash(sw_vers:*)",
+      "Bash(scp:*)",
+      "Bash(sudo security add-trusted-cert:*)",
+      "Bash(open:*)",
+      "Bash(ipptool:*)",
+      "Bash(log show:*)",
+      "Bash(/usr/bin/log show:*)",
+      "Bash(cups-config:*)",
+      "Bash(/usr/sbin/cupsd:*)",
+      "Bash(pkgutil:*)",
+      "Bash(chmod:*)",
+      "Bash(smbutil lookup:*)",
+      "Bash(smbutil status:*)",
+      "Bash(smbutil view:*)",
+      "Bash(smbutil statshares:*)",
+      "Bash(defaults read:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)",
+      "mcp__github__create_repository",
+      "Bash(gh auth status:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
